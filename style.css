@@ -1,0 +1,66 @@
+h1{
+    color: rgb(16, 116, 216); 
+    text-align: center;
+ }
+
+ /* *{
+     border: solid;
+ } */
+
+.header{
+    background-color: #c1efff;
+    text-align: center;
+}
+
+a:link{
+    color:rgb(17, 105, 246);
+}
+
+a:visited{
+    color:blue;
+}
+
+.menu{
+    align-self: start;
+    text-align: center;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.item{
+    border-radius: 20px;
+    background-color: #0985af;
+    /* modify margin and padding here*/
+    padding: 70px;
+    margin: 50px;
+    width:310px;
+    color: #ffffff;
+    font-family: fantasy;
+    position: relative;
+}
+
+.item p{
+    opacity: 0;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+
+p, h2{
+    text-align: center;
+}
+
+body{
+    background-color: #00c0ff;
+}
